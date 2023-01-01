@@ -19,6 +19,8 @@ function showName() {
 
 
 
+
+
 function doLoop() {
     // "let, const" can use for local scope / block scope.
     var i = 0; 

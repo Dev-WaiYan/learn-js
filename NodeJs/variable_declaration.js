@@ -10,7 +10,7 @@ console.log(`l is ${l}`);
 
 
 const c=1;
-//c=10;
+//c=10; Type error : Assignment to constant variable.
 console.log(`c is ${c}`);
 
 var vi;
