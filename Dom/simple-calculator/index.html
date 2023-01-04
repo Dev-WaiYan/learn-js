@@ -22,42 +22,44 @@
         <div class="btnContainer">
           <div>
             <div class="btnRow">
-              <button>9</button>
-              <button>8</button>
-              <button>7</button>
+              <button onclick="btnPress(9)">9</button>
+              <button onclick="btnPress(8)">8</button>
+              <button onclick="btnPress(7)">7</button>
             </div>
 
             <div class="btnRow">
-              <button>6</button>
-              <button>5</button>
-              <button>4</button>
+              <button onclick="btnPress(6)">6</button>
+              <button onclick="btnPress(5)">5</button>
+              <button onclick="btnPress(4)">4</button>
             </div>
 
             <div class="btnRow">
-              <button>3</button>
-              <button>2</button>
-              <button>1</button>
+              <button onclick="btnPress(3)">3</button>
+              <button onclick="btnPress(2)">2</button>
+              <button onclick="btnPress(1)">1</button>
             </div>
 
             <div class="btnRow">
-              <button>0</button>
-              <button>+</button>
-              <button>-</button>
+              <button onclick="btnPress(0)">0</button>
+              <button onclick="btnPress('+')">+</button>
+              <button onclick="btnPress('-')">-</button>
             </div>
 
             <div class="btnRow">
-              <button>x</button>
-              <button>/</button>
-              <button>=</button>
+              <button onclick="btnPress('*')">*</button>
+              <button onclick="btnPress('/')">/</button>
+              <button onclick="btnPress('=')">=</button>
             </div>
 
             <div class="btnRow">
-              <button>DEL</button>
-              <button id="btnAllClear">C</button>
+              <button onclick="del()">DEL</button>
+              <button id="btnAllClear" onclick="allClear()">C</button>
             </div>
           </div>
         </div>
       </div>
     </main>
+
+    <script src="./index.js"></script>
   </body>
 </html>

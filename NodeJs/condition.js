@@ -52,7 +52,7 @@ let colour="white";
 analyseColour(colour);
 colour="yellow";
 analyseColour(colour);
-colour="blue";
+colour="green";
 analyseColour(colour);
 
 
