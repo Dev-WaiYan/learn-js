@@ -6,11 +6,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-height: 100vh; */
+  min-height: 100vh;
 }
 
 .container {
-  width: 400px;
+  width: 500px;
   background-color: aqua;
   border: 1px solid rgb(16, 194, 158);
   border-radius: 10px;
@@ -30,6 +30,7 @@ main {
   border-radius: 10px;
   border: none;
   outline: none;
+  font-size: 1.2rem;
 }
 
 /* Btns */
@@ -50,6 +51,7 @@ main {
   margin: 5px;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .btnContainer button:hover,
@@ -62,4 +64,16 @@ main {
   width: 200px;
   margin: 10px;
   color: #fff;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 230px;
+  }
 }
