@@ -1,0 +1,32 @@
+h2 {
+  text-align: center;
+}
+
+.alertButtonContainer {
+  padding: 30px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.alertButtonContainer button {
+  margin: 30px;
+  font-size: 1.2rem;
+  background-color: rgb(167, 240, 40);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 0px;
+  box-shadow: 2px 2px 2px;
+  cursor: pointer;
+  width: 130px;
+}
+
+.alertButtonContainer button:hover {
+  background-color: rgb(58, 70, 229);
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
