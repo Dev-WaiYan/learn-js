@@ -10,14 +10,23 @@
   <body>
     <h2>Alert Box</h2>
     <div class="alertButtonContainer">
-      <button>Success</button>
-      <button>Danger</button>
-      <button>Warning</button>
-      <button>Info</button>
+      <button onclick="clickButton('success')">Success</button>
+      <button onclick="clickButton('danger')">Danger</button>
+      <button onclick="clickButton('warning')">Warning</button>
+      <button onclick="clickButton('info')">Info</button>
+    </div>
+
+    <div class="alertBoxContainer" id="alertBoxContainer">
+      <div class="alertBox" id="alertBox">
+        <h3 id="alertTitle">Alert Box</h3>
+        <p id="alertContent">Success!</p>
+      </div>
     </div>
 
     <footer>
       <a href="https://github.com/Dev-WaiYan/learn-js">Developed by HsuLae</a>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
