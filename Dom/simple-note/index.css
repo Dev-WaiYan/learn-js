@@ -1,0 +1,65 @@
+.note input {
+  border: 1px solid burlywood;
+  background-color: aliceblue;
+  padding: 15px;
+  width: 250px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.note textarea {
+  border-radius: 10px;
+  background-color: aliceblue;
+  border: 1px solid burlywood;
+  width: 250px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.note button {
+  padding: 6px 12px;
+  background-color: aquamarine;
+  font-size: 1.1rem;
+  border: 1px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.note button:hover {
+  background-color: bisque;
+}
+
+.note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.formGroup {
+  margin-bottom: 10px;
+}
+
+.alert p {
+  text-align: center;
+}
+
+.alert {
+  width: 200px;
+  padding: 6px;
+  position: fixed;
+  right: 10px;
+  border-radius: 7px;
+}
+
+#alertSuccess {
+  background-color: rgb(135, 227, 196);
+  box-shadow: 2px 2px aqua;
+  display: none;
+}
+
+#alertFail {
+  background-color: rgb(226, 85, 85);
+  box-shadow: 2px 2px black;
+  display: none;
+}
